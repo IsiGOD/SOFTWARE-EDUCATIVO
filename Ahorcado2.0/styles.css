@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    line-height: 1.6; /* Mejora la legibilidad */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white; /* Añade contraste con el fondo */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Añade una ligera sombra */
+    border-radius: 8px; /* Bordes redondeados para una apariencia más moderna */
+}
+
+h1 {
+    font-size: 36px; /* Tamaño más grande para el título */
+    color: #333; /* Color del texto */
+}
+
+#word {
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+#hangman-ascii {
+    font-family: monospace;
+    white-space: pre;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#keyboard button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+button:disabled {
+    background-color: #011837;
+    color: white;
+    cursor: not-allowed;
+}

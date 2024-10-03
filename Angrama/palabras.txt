@@ -1,0 +1,10 @@
+regresion
+integracion
+unitarias
+sistema
+aceptacion
+automatizacion
+usabilidad
+validacion
+verificacion
+cobertura

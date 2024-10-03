@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    line-height: 1.6; /* Mejora la legibilidad */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white; /* Añade contraste con el fondo */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Añade una ligera sombra */
+    border-radius: 8px; /* Bordes redondeados para una apariencia más moderna */
+}
+
+#anagrama {
+    font-size: 36px; /* Un poco más grande para una mejor visualización */
+    letter-spacing: 10px; /* Ajuste para un mejor equilibrio entre las letras */
+    margin-bottom: 20px;
+}
+
+#respuesta {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+#respuesta:focus {
+    border-color: #011837; /* Cambia el color del borde cuando está activo */
+    outline: none; /* Elimina el borde predeterminado */
+}
+
+#verificar, #reiniciar {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #011837; /* Color verde para el botón */
+    color: white; /* Texto en blanco */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+#verificar:hover, #reiniciar:hover {
+    background-color: #008cff; /* Color más oscuro al pasar el mouse */
+}
+
+#mensaje {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333; /* Color neutro para el texto */
+}
+
+.correcto {
+    color: green; /* Estilo para mensajes correctos */
+}
+
+.incorrecto {
+    color: red; /* Estilo para mensajes incorrectos */
+}

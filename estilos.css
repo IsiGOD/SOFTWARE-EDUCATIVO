@@ -1,0 +1,78 @@
+
+h1{
+    color: #011837;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2{
+    color: #29105b;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3{
+    color: #141d70;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Barra de navegación */
+.navbar{
+    padding: 2rem;
+    background-color: #011837;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.texto-blanco{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.formulario-inicio{
+    padding: 250px;
+    font-family: 'Quicksand', sans-serif;
+}
+.img-index img{
+    font-family: 'Quicksand', sans-serif;
+    max-width: 250px;
+    max-height: 250px;
+}
+.img-index{
+    margin: 10px 0px 40px 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    margin: 10px auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn{
+    width: 100px;
+    border-radius: 20px;
+    background-color: #2233C5;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px auto;
+}
+
+.btn:hover{
+    background: #19258d;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px  0px 0px #011837;
+    transition: all 300ms;
+}
+
+.form-label{
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.form-control{
+    background-color: #EEE;
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid  #333;
+}
